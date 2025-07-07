@@ -11,7 +11,7 @@ ser = serial.Serial(
     baudrate=115200,     # Set the baudrate to match your Simulink configuration
     timeout=1          # Timeout in seconds
 )
-
+# commit changes
 # Function to send integer data to the UART
 def send_integer_data(data):
     if isinstance(data, int):
